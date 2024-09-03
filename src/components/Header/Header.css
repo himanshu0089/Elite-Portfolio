@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(143, 250, 143);
+  color: white;
+}
+.heading {
+  margin: 0 1.5rem;
+}
+.links {
+  margin: 1.5rem 3rem;
+}
+.Search {
+  display: flex;
+  justify-content: space-between;
+}
+.Search img{
+    margin-left: 12px;
+    width:80px;
+}

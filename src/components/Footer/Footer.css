@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(4, 100, 100);
+  color: rgb(204, 184, 146);
+  text-align: center;
+  padding-top: 0.5px;
+  margin-top: 1rem;
+  /* display: flex;
+    flex-direction: column; */
+}
+.ref {
+  color: rgb(95, 172, 95);
+  margin: 0.5rem;
+  text-decoration: none;
+}
+.signature {
+  padding: 0 3rem;
+  text-align: end;
+  color: wheat;
+}
