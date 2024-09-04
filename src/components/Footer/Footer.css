@@ -1,19 +1,28 @@
-footer {
-  background-color: rgb(4, 100, 100);
-  color: rgb(204, 184, 146);
+.footer {
+  background-color:rgb(54, 54, 54);
+  color: white;
   text-align: center;
-  padding-top: 0.5px;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+.title{
+  font-size: 1.2rem;
+}
+.footer-links {
   margin-top: 1rem;
-  /* display: flex;
-    flex-direction: column; */
-}
-.ref {
   color: rgb(95, 172, 95);
-  margin: 0.5rem;
-  text-decoration: none;
+  
 }
+
+.refs {
+  margin: 0.8rem;
+}
+
 .signature {
-  padding: 0 3rem;
+  padding: 1rem;
   text-align: end;
-  color: wheat;
+  color: rgb(238, 98, 47);
+  margin-right: 2rem;
+  cursor: pointer;
 }
