@@ -5,27 +5,24 @@ import { assets } from "../../assets/assets";
 
 function Header() {
   return (
-    <div>
-      <header>
+    <div className="navbar">
+      <div className="header">
         <div className="heading">
-          <h2>Walk the Talk</h2>
+          <Link to="/"><h2>Walk the Talk</h2></Link>
         </div>
-
-        <div className="links">
-        <Link to="/" className="ref">Home</Link>
-          <Link to="/project" className="ref">Project</Link>
-          <Link to="/blog" className="ref">Blogs</Link>
-          <Link to="/about" className="ref">About</Link>
-          < br/>
-          
+        <div className="profile">
+          <img src={assets.profile_icon} alt="" />
         </div>
-        <div className="Search">
-          <h3>Search</h3>
-          <img src={assets.search_icon} alt="" />
-        </div>
-      </header>
+      </div>
+      <div className="navbar-links">
+        <Link to="/" className="ref">home</Link>
+        <Link to="/project" className="ref" id="project">projects</Link>
+        <Link to="https://medium.com/@nonuroy0089/cryptocurrency-92a11aa10860" className="ref">blogs</Link>
+        <Link to="/contact" className="ref">contact-us</Link>
+        <Link to="/about" className="ref">about</Link>
+      </div>
     </div>
-  );
+  )
 }
 
 export default Header;
