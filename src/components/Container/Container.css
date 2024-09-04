@@ -1,0 +1,27 @@
+.container {
+    background-color: rgb(212, 192, 167);
+    text-align: center; 
+    margin: 2rem 0rem; 
+    width: 80%; 
+    margin: auto;
+    padding: 2rem;
+  }
+  .tech{
+    margin: 2rem;
+  }
+  .project{
+    margin: 2rem;
+  }
+  .project button{
+    cursor: pointer;
+  }
+  .container-blog{
+    margin: 2rem;
+    
+  }
+  .container-blog-link{
+     color:rgb(11, 117, 77);
+     font-weight: 400;
+     font-size: 1.1rem;
+     margin-top: 0.5rem;
+  }
