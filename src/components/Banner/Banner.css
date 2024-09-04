@@ -1,0 +1,12 @@
+.banner{
+    margin: auto;
+    height: 24vw;
+    width: 80%;
+    /* text-align: center;  */
+    background-size: contain;
+    background: url('/port.jpg') no-repeat;
+    /* background-color: rgb(247, 169, 26);   */
+    margin-top: 2rem;
+    position: relative;
+    
+}
