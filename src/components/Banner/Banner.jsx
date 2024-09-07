@@ -4,12 +4,9 @@ import "./Banner.css"
 function Banner() {
   return (
     <div className='banner'>
-      <div>
-        {/* <img src="port.jpg" alt="" />  */}
-      <h2>I love to design the sites</h2>
-        <p>
-          To view the 
-        </p>
+      <div className='banner-text'>
+       <h2>Web Developer</h2>
+        <p> Lets Start it </p>
         <button>view menu</button>
       </div>
       
