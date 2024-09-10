@@ -1,0 +1,95 @@
+.projects{
+  background-color: rgb(212, 192, 167);
+  width: 80%;
+  /* margin-left:auto;
+  margin-right:auto; */
+  margin: 0 auto 3rem auto;
+}
+.sub-title{
+  margin-left:2rem;
+  padding-top: 2rem;
+  color: white;
+
+}
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin: 2rem;
+  
+}
+
+.work {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.work img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer{
+  width: 100%;
+  height:0%;
+  background: linear-gradient(rgba(0,0,0,0.6), rgb(83, 155, 120));
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h2{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer a{
+   margin-top: 20px;
+   color: #ff004f;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 60px;
+   background: #fff;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   text-align: center;
+}
+.work:hover img{
+  transform: scale(1.1);
+}
+.work:hover .layer{
+  height: 100%;
+}
+button{
+  text-align: center;
+}
+Link{
+  cursor: none;
+}
+.See-More{
+  padding:0.5rem 1.2rem;
+  border-radius: 7px;
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 2rem;
+  margin-left:45% ;
+  background-color: rgb(33, 158, 98);
+  cursor: pointer;
+}
+.See-More:hover{
+  color: white;
+  background-color: #f32a6a;
+  border: none;
+  font:bold;
+}
