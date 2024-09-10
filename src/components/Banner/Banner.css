@@ -1,9 +1,9 @@
 .banner{
-    height: 60vh;
+    height: 80vh;
     width: 80%;
     margin: auto;
     background-size: contain;
-    background: url('/port.jpg') no-repeat;
+    background: url('Photos/frontend3.jfif') no-repeat;
     margin-top: 2rem;
     background-position: center;
     position: relative;
@@ -11,7 +11,9 @@
 }
 .banner-text{
     position: absolute;
-    margin-top: 15rem;
-    margin-left: 15rem;
+    bottom:1rem;
+    left: 42%;
     font-size: 20px;
+    color: rgb(33, 158, 98);
+    /* background-color: red; */
 }

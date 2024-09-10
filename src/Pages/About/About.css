@@ -23,21 +23,36 @@
     /* background-color: orange; */
     flex-basis: 60%;
 }
-.sub-title{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 600;
+
+.about-col-2-text{
+    margin-top: 2rem;
+    /* font:bold; */
+    color:rgb(29, 28, 28);
+    margin-bottom: 2rem;
 }
 .reference{
     display: flex;
     gap:3rem;
     margin-top: 8px;
     cursor: pointer;
+    color: orange;
 
 }
 .reference h3{
     /* cursor: pointer;   */
 }
 .active{
-    cursor: progress;
+    /* border: 1px solid greenyellow; */
+    text-decoration: underline;
+    /* padding: 0 0.5rem 0.2rem 0.5rem; */
+    border-radius: 8px;
+}
+.details{
+    margin-top: 2rem;
+    color: rgb(13, 148, 114);
+    
+}
+.education{
+    display: flex;
+    gap:2rem;
 }

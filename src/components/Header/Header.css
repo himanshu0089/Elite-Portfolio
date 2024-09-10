@@ -14,27 +14,26 @@
 
 }
 .navbar-links {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  color: rgb(47, 175, 116); 
+  color: rgb(27, 173, 142);
   cursor: pointer;
   text-align: center;
-  width:50%;
+  width:60%;
   margin: auto; 
   border:1px solid rgb(87, 86, 86);
   border-radius: 8px;
-  background-color: #E7E7E7;
+  background-color: white;
   padding: 0.5rem;
 }
 .navbar-links:hover{
-  background-color: rgb(65, 141, 67);
-  color: #FFE77AFF;
-  font-size: 1.3rem;
+  background-color: #1ba184;
+  color: white;
 }
 
 .ref {
   /* cursor: progress;  */
-  margin: 0.5rem;
+  margin: 1rem;
   text-decoration: none;
 }
 

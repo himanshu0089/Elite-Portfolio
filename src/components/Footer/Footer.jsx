@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="title">
         <h2>Connect me through</h2>
       </div>
