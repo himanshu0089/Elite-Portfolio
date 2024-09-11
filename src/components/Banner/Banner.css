@@ -1,19 +1,19 @@
 .banner{
-    height: 80vh;
-    width: 80%;
+    height: 550px;
+    width: 80%; 
     margin: auto;
-    background-size: contain;
-    background: url('Photos/banner.jpg') no-repeat;
+    overflow: hidden;
+    background: url('Photos/hash.jpg') no-repeat;
     margin-top: 2rem;
-    background-position: center;
     position: relative;
+    /* background-size: 75% 50%; */
     /* background-color: red;  */
 }
 .banner-text{
     position: absolute;
     bottom:1rem;
-    left: 42%;
-    font-size: 20px;
+    left: 40%;
+    font-size: 16px;
     color: rgb(33, 158, 98);
     /* background-color: red; */
 }

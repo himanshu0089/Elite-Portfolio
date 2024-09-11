@@ -9,8 +9,9 @@ function Footer() {
         <h2>Connect me through</h2>
       </div>
       <div className="footer-links">
-        <Link to="https://github.com/himanshu0089" className="refs"><img src={assets.twitter_icon} alt="" /></Link>
+        
         <Link to="https://www.linkedin.com/in/himanshu0089/" className="refs"><img src={assets.linkedin_icon} alt="" /></Link>
+        <Link to="https://github.com/himanshu0089" className="refs"><img src={assets.twitter_icon} alt="" /></Link>
         <Link to="https://github.com/himanshu0089" className="refs"><img src={assets.facebook_icon} alt="" /></Link>
       </div>
 

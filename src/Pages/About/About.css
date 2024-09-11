@@ -35,11 +35,13 @@
     gap:3rem;
     margin-top: 8px;
     cursor: pointer;
-    color: orange;
+    color: rgb(226, 162, 43);
 
 }
-.reference h3{
-    /* cursor: pointer;   */
+.skill{
+    margin: 1rem 0;
+    color:  rgb(226, 162, 43);
+    font-weight: 700;
 }
 .active{
     /* border: 1px solid greenyellow; */
@@ -49,10 +51,13 @@
 }
 .details{
     margin-top: 2rem;
-    color: rgb(13, 148, 114);
+    color: rgb(18, 110, 75);
     
 }
 .education{
     display: flex;
     gap:2rem;
+}
+.educate{
+    margin-bottom: 1rem;
 }
