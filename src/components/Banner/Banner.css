@@ -2,11 +2,10 @@
     height: 550px;
     width: 80%; 
     margin: auto;
-    overflow: hidden;
-    background: url('Photos/hash.jpg') no-repeat;
+    background: url('/hash.jpg') no-repeat;
     margin-top: 2rem;
     position: relative;
-    /* background-size: 75% 50%; */
+    /* background-size: cover; */
     /* background-color: red;  */
 }
 .banner-text{

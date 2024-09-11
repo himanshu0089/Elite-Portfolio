@@ -8,7 +8,7 @@ function Project() {
       <div className="sub-title">My Work</div>
       <div className="work-list">
         <div className="work">
-          <img src="Photos/work-1.png" alt="" />
+          <img src="work-1.png" alt="" />
           <div className="layer">
             <h2 className="">First Fork</h2>
             <p className="">First Fork is a food delivery app clone to deliver your food and happiness.</p>
@@ -16,7 +16,7 @@ function Project() {
           </div>
         </div>
         <div className="work">
-          <img src="Photos/work-2.png" alt="" />
+          <img src="work-2.png" alt="" />
           <div className="layer">
             <h2 className="">Movie Clone</h2>
             <p className=""> Movie Clone is a the site which takes the trending movies data across the globe and allow you to choose your favourite movies</p>
@@ -24,7 +24,7 @@ function Project() {
           </div>
         </div>
         <div className="work">
-          <img src="Photos/work-3.png" alt="" />
+          <img src="work-3.png" alt="" />
           <div className="layer">
             <h2 className="">Grill Bites</h2>
             <p className="">Grill Bites is the restaurant for your cravings.</p> 
