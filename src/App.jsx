@@ -11,11 +11,19 @@ import Blog from "./Pages/Blogs/Blog";
 import Home from "./components/Home/Home";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import { useTheme } from "./store/ThemeContext";
 
 function App() {
+  const {theme}=useTheme();
   return (
     <>
-      <div>
+      <div
+        style={{
+          backgroundColor:theme==="light" ? "white" : "black",
+          color:theme==="light"? "black" : "white"
+        }}
+      >
+
         <Header />
          
         <Routes>
@@ -25,7 +33,9 @@ function App() {
           {/* <Route path="/about" element={<About />} />  */}
           {/* <Route path="/contact" element={<Contact />} />  */}
         </Routes>
-           
+          
+         <Contact /> 
+         
         <Footer />
       </div>
     </>
