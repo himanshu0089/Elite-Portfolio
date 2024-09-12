@@ -33,7 +33,7 @@ function Project() {
           </div>
         </div>
       </div>
-     <Link> <button className='See-More'>See More</button> </Link>
+     <Link to="https://himanshu3316.netlify.app/"> <button className='See-More'>See More</button> </Link>
     </div>
   )
 }
