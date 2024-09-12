@@ -12,7 +12,6 @@ function About() {
             <img src="me.jpg" alt="" />
           </div>
           <div className="about-col-2">
-            {/* <p className='sub-title'>About Me</p> */}
             <div className="about-col-2-text">
               <p>I am a results-oriented web developer with a passion for crafting dynamic and
                 intuitive web applications.

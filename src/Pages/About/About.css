@@ -19,6 +19,10 @@
     width: 100%;
     border-radius: 10%;
 }
+.about-col-1 img:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .about-col-2{
     /* background-color: orange; */
     flex-basis: 60%;
