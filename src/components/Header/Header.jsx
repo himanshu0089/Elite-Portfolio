@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 import { useTheme } from "../../store/ThemeContext";
 
 function Header() {
-  const {setTheme}=useTheme()
+  const {theme,setTheme}=useTheme()
   return (
     <div className="navbar">
       <div className="header">
@@ -14,8 +14,13 @@ function Header() {
         </div>
         <div className="profile">
           <img src={assets.profile_icon} alt="" />
-        <button onClick={()=>setTheme(prev=>prev==="light" ? "dark":"light")}><i className="fa-solid fa-moon"></i></button>  
-        </div>
+        {theme==="light" ? 
+           <button onClick={()=>setTheme(prev=>prev==="light" ? "dark":"light")}><i className="fa-solid fa-moon"></i></button>  
+           : 
+           <button onClick={()=>setTheme(prev=>prev==="light" ? "dark":"light")}><i class="fa-solid fa-star"></i></button>  
+      
+        }
+          </div>
       </div>
       <div className="navbar-links">
         <Link to="/" className="ref">Home</Link>
